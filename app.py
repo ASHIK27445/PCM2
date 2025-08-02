@@ -39,7 +39,7 @@ class EnergyData(db.Model):
 
 with app.app_context():
     db.create_all()
-
+#
 # Polling Function (safe with app context)
 def poll_device(interval=10):
     while True:
